@@ -59,7 +59,7 @@ function gotResult(error, results) {
   
   // run sketchRNN
   
-  if (nf(results[0].confidence, 0, 2) > .8)
+  if (nf(results[0].confidence, 0, 2) > .5)
   {startDrawing()}
   
   }
